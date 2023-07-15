@@ -1,0 +1,946 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C7D8E02A46FA5DEC3204DC2 /* Pods_Metrimony_MetrimonyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC76A3AE65D5DF58CD06D40 /* Pods_Metrimony_MetrimonyUITests.framework */; };
+		4CF7F839D90374270AA779A2 /* Pods_MetrimonyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B40D018C91F916276ED3BC /* Pods_MetrimonyTests.framework */; };
+		7D46BA587AA593DFE5D4C4B9 /* Pods_Metrimony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE33C76F5898C1E8623C7A7 /* Pods_Metrimony.framework */; };
+		9A10B947292F8C4B004C1162 /* SearchDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10B946292F8C4B004C1162 /* SearchDAL.swift */; };
+		9A10B949292FA9CB004C1162 /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10B948292FA9CB004C1162 /* search.swift */; };
+		9A4AC238292BA8A20012D384 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4AC237292BA8A20012D384 /* FavouriteViewController.swift */; };
+		9A4AC23B292BADFD0012D384 /* FavouriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4AC23A292BADFD0012D384 /* FavouriteTableViewCell.swift */; };
+		9A511EC9292DEB50000A27BF /* Caste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A511EC8292DEB50000A27BF /* Caste.swift */; };
+		9A511ECB292DEB69000A27BF /* casteDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A511ECA292DEB69000A27BF /* casteDAL.swift */; };
+		9A511ED1292E5966000A27BF /* searchresultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A511ED0292E5966000A27BF /* searchresultViewController.swift */; };
+		9A511ED4292E8C09000A27BF /* searchreasultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A511ED3292E8C09000A27BF /* searchreasultTableViewCell.swift */; };
+		9A6D5384292D3B1100CFF100 /* favourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D5383292D3B1100CFF100 /* favourite.swift */; };
+		9A81210C292A3A8F00F84402 /* AddProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A81210B292A3A8F00F84402 /* AddProfileViewController.swift */; };
+		9A873E75292891E100A6FCAA /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A873E74292891E100A6FCAA /* ProfileTableViewCell.swift */; };
+		9A873E77292892B000A6FCAA /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A873E76292892B000A6FCAA /* profile.swift */; };
+		9A873E792928937200A6FCAA /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A873E782928937200A6FCAA /* profileViewController.swift */; };
+		9A873E7B2928946500A6FCAA /* profileDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A873E7A2928946500A6FCAA /* profileDAL.swift */; };
+		9A873E7D2928B8C400A6FCAA /* ProfileDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A873E7C2928B8C400A6FCAA /* ProfileDetails.swift */; };
+		9A873E802928B90200A6FCAA /* ProfileDetailsDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A873E7F2928B90200A6FCAA /* ProfileDetailsDAL.swift */; };
+		9A873E822928B92C00A6FCAA /* ProfileDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A873E812928B92C00A6FCAA /* ProfileDetailsViewController.swift */; };
+		9AB931B929287EDF00FF3A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB931B829287EDF00FF3A2E /* AppDelegate.swift */; };
+		9AB931BB29287EDF00FF3A2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB931BA29287EDF00FF3A2E /* SceneDelegate.swift */; };
+		9AB931BD29287EDF00FF3A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB931BC29287EDF00FF3A2E /* ViewController.swift */; };
+		9AB931C029287EDF00FF3A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB931BE29287EDF00FF3A2E /* Main.storyboard */; };
+		9AB931C229287EE000FF3A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB931C129287EE000FF3A2E /* Assets.xcassets */; };
+		9AB931C529287EE000FF3A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB931C329287EE000FF3A2E /* LaunchScreen.storyboard */; };
+		9AB931D029287EE000FF3A2E /* MetrimonyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB931CF29287EE000FF3A2E /* MetrimonyTests.swift */; };
+		9AB931DA29287EE000FF3A2E /* MetrimonyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB931D929287EE000FF3A2E /* MetrimonyUITests.swift */; };
+		9AB931DC29287EE000FF3A2E /* MetrimonyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB931DB29287EE000FF3A2E /* MetrimonyUITestsLaunchTests.swift */; };
+		9AB931F92928816D00FF3A2E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB931EE2928816D00FF3A2E /* FMDatabase.m */; };
+		9AB931FA2928816D00FF3A2E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB931EF2928816D00FF3A2E /* FMDatabaseAdditions.m */; };
+		9AB931FB2928816D00FF3A2E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB931F02928816D00FF3A2E /* FMDatabasePool.m */; };
+		9AB931FC2928816D00FF3A2E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB931F32928816D00FF3A2E /* FMDatabaseQueue.m */; };
+		9AB931FD2928816D00FF3A2E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB931F72928816D00FF3A2E /* FMResultSet.m */; };
+		9AB932022928832D00FF3A2E /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB932012928832D00FF3A2E /* Utility.swift */; };
+		9ADAF8F0292CB85D005706EE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAF8EF292CB85D005706EE /* SearchViewController.swift */; };
+		9AE9FFA9292B173A007CB236 /* Matrimony.db in Resources */ = {isa = PBXBuildFile; fileRef = 9AE9FFA8292B173A007CB236 /* Matrimony.db */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AB931CC29287EE000FF3A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AB931AD29287EDF00FF3A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AB931B429287EDF00FF3A2E;
+			remoteInfo = Metrimony;
+		};
+		9AB931D629287EE000FF3A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AB931AD29287EDF00FF3A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AB931B429287EDF00FF3A2E;
+			remoteInfo = Metrimony;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0343F678EF23F91F25339061 /* Pods-Metrimony-MetrimonyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metrimony-MetrimonyUITests.release.xcconfig"; path = "Target Support Files/Pods-Metrimony-MetrimonyUITests/Pods-Metrimony-MetrimonyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0FC76A3AE65D5DF58CD06D40 /* Pods_Metrimony_MetrimonyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metrimony_MetrimonyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7A999EDBCCEAC4A5F253B6 /* Pods-Metrimony.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metrimony.debug.xcconfig"; path = "Target Support Files/Pods-Metrimony/Pods-Metrimony.debug.xcconfig"; sourceTree = "<group>"; };
+		52B40D018C91F916276ED3BC /* Pods_MetrimonyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetrimonyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB0143FA5E59BB2B9583474 /* Pods-Metrimony.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metrimony.release.xcconfig"; path = "Target Support Files/Pods-Metrimony/Pods-Metrimony.release.xcconfig"; sourceTree = "<group>"; };
+		74EF9D74797D1A2C8CB396A8 /* Pods-MetrimonyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetrimonyTests.debug.xcconfig"; path = "Target Support Files/Pods-MetrimonyTests/Pods-MetrimonyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E9C1AFF08DC2187C19188B7 /* Pods-MetrimonyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetrimonyTests.release.xcconfig"; path = "Target Support Files/Pods-MetrimonyTests/Pods-MetrimonyTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A10B946292F8C4B004C1162 /* SearchDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDAL.swift; sourceTree = "<group>"; };
+		9A10B948292FA9CB004C1162 /* search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search.swift; sourceTree = "<group>"; };
+		9A4AC237292BA8A20012D384 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		9A4AC23A292BADFD0012D384 /* FavouriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTableViewCell.swift; sourceTree = "<group>"; };
+		9A511EC8292DEB50000A27BF /* Caste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caste.swift; sourceTree = "<group>"; };
+		9A511ECA292DEB69000A27BF /* casteDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = casteDAL.swift; sourceTree = "<group>"; };
+		9A511ED0292E5966000A27BF /* searchresultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchresultViewController.swift; sourceTree = "<group>"; };
+		9A511ED3292E8C09000A27BF /* searchreasultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = searchreasultTableViewCell.swift; path = Metrimony/search/searchreasultTableViewCell.swift; sourceTree = "<group>"; };
+		9A6D5383292D3B1100CFF100 /* favourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favourite.swift; sourceTree = "<group>"; };
+		9A81210B292A3A8F00F84402 /* AddProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfileViewController.swift; sourceTree = "<group>"; };
+		9A873E74292891E100A6FCAA /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		9A873E76292892B000A6FCAA /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+		9A873E782928937200A6FCAA /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		9A873E7A2928946500A6FCAA /* profileDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileDAL.swift; sourceTree = "<group>"; };
+		9A873E7C2928B8C400A6FCAA /* ProfileDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetails.swift; sourceTree = "<group>"; };
+		9A873E7F2928B90200A6FCAA /* ProfileDetailsDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailsDAL.swift; sourceTree = "<group>"; };
+		9A873E812928B92C00A6FCAA /* ProfileDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailsViewController.swift; sourceTree = "<group>"; };
+		9AB931B529287EDF00FF3A2E /* Metrimony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metrimony.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB931B829287EDF00FF3A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AB931BA29287EDF00FF3A2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AB931BC29287EDF00FF3A2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AB931BF29287EDF00FF3A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AB931C129287EE000FF3A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AB931C429287EE000FF3A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AB931C629287EE000FF3A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB931CB29287EE000FF3A2E /* MetrimonyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetrimonyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB931CF29287EE000FF3A2E /* MetrimonyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetrimonyTests.swift; sourceTree = "<group>"; };
+		9AB931D529287EE000FF3A2E /* MetrimonyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetrimonyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB931D929287EE000FF3A2E /* MetrimonyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetrimonyUITests.swift; sourceTree = "<group>"; };
+		9AB931DB29287EE000FF3A2E /* MetrimonyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetrimonyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9AB931ED2928816C00FF3A2E /* Metrimony-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Metrimony-Bridging-Header.h"; sourceTree = "<group>"; };
+		9AB931EE2928816D00FF3A2E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		9AB931EF2928816D00FF3A2E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9AB931F02928816D00FF3A2E /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		9AB931F12928816D00FF3A2E /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		9AB931F22928816D00FF3A2E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9AB931F32928816D00FF3A2E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		9AB931F42928816D00FF3A2E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		9AB931F52928816D00FF3A2E /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		9AB931F62928816D00FF3A2E /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		9AB931F72928816D00FF3A2E /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		9AB931F82928816D00FF3A2E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		9AB932012928832D00FF3A2E /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		9ADAF8EF292CB85D005706EE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9AE9FFA8292B173A007CB236 /* Matrimony.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Matrimony.db; sourceTree = "<group>"; };
+		AAE33C76F5898C1E8623C7A7 /* Pods_Metrimony.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metrimony.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03036E9BF5506399968969C /* Pods-Metrimony-MetrimonyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metrimony-MetrimonyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Metrimony-MetrimonyUITests/Pods-Metrimony-MetrimonyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AB931B229287EDF00FF3A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D46BA587AA593DFE5D4C4B9 /* Pods_Metrimony.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB931C829287EE000FF3A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF7F839D90374270AA779A2 /* Pods_MetrimonyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB931D229287EE000FF3A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7D8E02A46FA5DEC3204DC2 /* Pods_Metrimony_MetrimonyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32F5F71DDE41DE86043BC348 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E7A999EDBCCEAC4A5F253B6 /* Pods-Metrimony.debug.xcconfig */,
+				5BB0143FA5E59BB2B9583474 /* Pods-Metrimony.release.xcconfig */,
+				D03036E9BF5506399968969C /* Pods-Metrimony-MetrimonyUITests.debug.xcconfig */,
+				0343F678EF23F91F25339061 /* Pods-Metrimony-MetrimonyUITests.release.xcconfig */,
+				74EF9D74797D1A2C8CB396A8 /* Pods-MetrimonyTests.debug.xcconfig */,
+				7E9C1AFF08DC2187C19188B7 /* Pods-MetrimonyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A4AC239292BACD80012D384 /* favourite */ = {
+			isa = PBXGroup;
+			children = (
+				9A4AC237292BA8A20012D384 /* FavouriteViewController.swift */,
+				9A6D5383292D3B1100CFF100 /* favourite.swift */,
+				9A4AC23A292BADFD0012D384 /* FavouriteTableViewCell.swift */,
+			);
+			path = favourite;
+			sourceTree = "<group>";
+		};
+		9A511EC7292DEA85000A27BF /* caste */ = {
+			isa = PBXGroup;
+			children = (
+				9A511EC8292DEB50000A27BF /* Caste.swift */,
+				9A511ECA292DEB69000A27BF /* casteDAL.swift */,
+			);
+			path = caste;
+			sourceTree = "<group>";
+		};
+		9A511ED2292E597C000A27BF /* search reasult */ = {
+			isa = PBXGroup;
+			children = (
+				9A511ED0292E5966000A27BF /* searchresultViewController.swift */,
+				9A511ED3292E8C09000A27BF /* searchreasultTableViewCell.swift */,
+			);
+			name = "search reasult";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9A81210D292A3A9500F84402 /* Add Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9A81210B292A3A8F00F84402 /* AddProfileViewController.swift */,
+			);
+			path = "Add Profile";
+			sourceTree = "<group>";
+		};
+		9A873E7E2928B8CA00A6FCAA /* ProflleDetails */ = {
+			isa = PBXGroup;
+			children = (
+				9A873E7C2928B8C400A6FCAA /* ProfileDetails.swift */,
+				9A873E7F2928B90200A6FCAA /* ProfileDetailsDAL.swift */,
+				9A873E812928B92C00A6FCAA /* ProfileDetailsViewController.swift */,
+			);
+			path = ProflleDetails;
+			sourceTree = "<group>";
+		};
+		9AB931AC29287EDF00FF3A2E = {
+			isa = PBXGroup;
+			children = (
+				9AB931B729287EDF00FF3A2E /* Metrimony */,
+				9AB931CE29287EE000FF3A2E /* MetrimonyTests */,
+				9AB931D829287EE000FF3A2E /* MetrimonyUITests */,
+				9AB931B629287EDF00FF3A2E /* Products */,
+				32F5F71DDE41DE86043BC348 /* Pods */,
+				AE1204ACA311DC97C0CD886F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AB931B629287EDF00FF3A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AB931B529287EDF00FF3A2E /* Metrimony.app */,
+				9AB931CB29287EE000FF3A2E /* MetrimonyTests.xctest */,
+				9AB931D529287EE000FF3A2E /* MetrimonyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AB931B729287EDF00FF3A2E /* Metrimony */ = {
+			isa = PBXGroup;
+			children = (
+				9AE9FFA8292B173A007CB236 /* Matrimony.db */,
+				9AB931EC2928812E00FF3A2E /* FMDB */,
+				9AB932002928822B00FF3A2E /* profile */,
+				9A873E7E2928B8CA00A6FCAA /* ProflleDetails */,
+				9A81210D292A3A9500F84402 /* Add Profile */,
+				9A511EC7292DEA85000A27BF /* caste */,
+				9ADAF8EE292CB81C005706EE /* search */,
+				9A511ED2292E597C000A27BF /* search reasult */,
+				9A4AC239292BACD80012D384 /* favourite */,
+				9AB931B829287EDF00FF3A2E /* AppDelegate.swift */,
+				9AB931BA29287EDF00FF3A2E /* SceneDelegate.swift */,
+				9AB931BC29287EDF00FF3A2E /* ViewController.swift */,
+				9AB931BE29287EDF00FF3A2E /* Main.storyboard */,
+				9AB932012928832D00FF3A2E /* Utility.swift */,
+				9AB931C129287EE000FF3A2E /* Assets.xcassets */,
+				9AB931C329287EE000FF3A2E /* LaunchScreen.storyboard */,
+				9AB931C629287EE000FF3A2E /* Info.plist */,
+			);
+			path = Metrimony;
+			sourceTree = "<group>";
+		};
+		9AB931CE29287EE000FF3A2E /* MetrimonyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AB931CF29287EE000FF3A2E /* MetrimonyTests.swift */,
+			);
+			path = MetrimonyTests;
+			sourceTree = "<group>";
+		};
+		9AB931D829287EE000FF3A2E /* MetrimonyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AB931D929287EE000FF3A2E /* MetrimonyUITests.swift */,
+				9AB931DB29287EE000FF3A2E /* MetrimonyUITestsLaunchTests.swift */,
+			);
+			path = MetrimonyUITests;
+			sourceTree = "<group>";
+		};
+		9AB931EC2928812E00FF3A2E /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				9AB931F82928816D00FF3A2E /* FMDatabase.h */,
+				9AB931EE2928816D00FF3A2E /* FMDatabase.m */,
+				9AB931F22928816D00FF3A2E /* FMDatabaseAdditions.h */,
+				9AB931EF2928816D00FF3A2E /* FMDatabaseAdditions.m */,
+				9AB931F12928816D00FF3A2E /* FMDatabasePool.h */,
+				9AB931F02928816D00FF3A2E /* FMDatabasePool.m */,
+				9AB931F42928816D00FF3A2E /* FMDatabaseQueue.h */,
+				9AB931F32928816D00FF3A2E /* FMDatabaseQueue.m */,
+				9AB931F52928816D00FF3A2E /* FMDB.h */,
+				9AB931F62928816D00FF3A2E /* FMResultSet.h */,
+				9AB931F72928816D00FF3A2E /* FMResultSet.m */,
+				9AB931ED2928816C00FF3A2E /* Metrimony-Bridging-Header.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		9AB932002928822B00FF3A2E /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				9A873E74292891E100A6FCAA /* ProfileTableViewCell.swift */,
+				9A873E76292892B000A6FCAA /* profile.swift */,
+				9A873E782928937200A6FCAA /* profileViewController.swift */,
+				9A873E7A2928946500A6FCAA /* profileDAL.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		9ADAF8EE292CB81C005706EE /* search */ = {
+			isa = PBXGroup;
+			children = (
+				9ADAF8EF292CB85D005706EE /* SearchViewController.swift */,
+				9A10B948292FA9CB004C1162 /* search.swift */,
+				9A10B946292F8C4B004C1162 /* SearchDAL.swift */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		AE1204ACA311DC97C0CD886F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAE33C76F5898C1E8623C7A7 /* Pods_Metrimony.framework */,
+				0FC76A3AE65D5DF58CD06D40 /* Pods_Metrimony_MetrimonyUITests.framework */,
+				52B40D018C91F916276ED3BC /* Pods_MetrimonyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AB931B429287EDF00FF3A2E /* Metrimony */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB931DF29287EE000FF3A2E /* Build configuration list for PBXNativeTarget "Metrimony" */;
+			buildPhases = (
+				38E9B9BD38E5EDACCB2B1470 /* [CP] Check Pods Manifest.lock */,
+				9AB931B129287EDF00FF3A2E /* Sources */,
+				9AB931B229287EDF00FF3A2E /* Frameworks */,
+				9AB931B329287EDF00FF3A2E /* Resources */,
+				6EF9902D6F0BA13698A04575 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Metrimony;
+			productName = Metrimony;
+			productReference = 9AB931B529287EDF00FF3A2E /* Metrimony.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AB931CA29287EE000FF3A2E /* MetrimonyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB931E229287EE000FF3A2E /* Build configuration list for PBXNativeTarget "MetrimonyTests" */;
+			buildPhases = (
+				375C760F931D56F867E3F963 /* [CP] Check Pods Manifest.lock */,
+				9AB931C729287EE000FF3A2E /* Sources */,
+				9AB931C829287EE000FF3A2E /* Frameworks */,
+				9AB931C929287EE000FF3A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AB931CD29287EE000FF3A2E /* PBXTargetDependency */,
+			);
+			name = MetrimonyTests;
+			productName = MetrimonyTests;
+			productReference = 9AB931CB29287EE000FF3A2E /* MetrimonyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AB931D429287EE000FF3A2E /* MetrimonyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB931E529287EE000FF3A2E /* Build configuration list for PBXNativeTarget "MetrimonyUITests" */;
+			buildPhases = (
+				9DE834694100046EBD5E0A89 /* [CP] Check Pods Manifest.lock */,
+				9AB931D129287EE000FF3A2E /* Sources */,
+				9AB931D229287EE000FF3A2E /* Frameworks */,
+				9AB931D329287EE000FF3A2E /* Resources */,
+				E4886E31689A65009492FC7A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AB931D729287EE000FF3A2E /* PBXTargetDependency */,
+			);
+			name = MetrimonyUITests;
+			productName = MetrimonyUITests;
+			productReference = 9AB931D529287EE000FF3A2E /* MetrimonyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AB931AD29287EDF00FF3A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9AB931B429287EDF00FF3A2E = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+					9AB931CA29287EE000FF3A2E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9AB931B429287EDF00FF3A2E;
+					};
+					9AB931D429287EE000FF3A2E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9AB931B429287EDF00FF3A2E;
+					};
+				};
+			};
+			buildConfigurationList = 9AB931B029287EDF00FF3A2E /* Build configuration list for PBXProject "Metrimony" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AB931AC29287EDF00FF3A2E;
+			productRefGroup = 9AB931B629287EDF00FF3A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AB931B429287EDF00FF3A2E /* Metrimony */,
+				9AB931CA29287EE000FF3A2E /* MetrimonyTests */,
+				9AB931D429287EE000FF3A2E /* MetrimonyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AB931B329287EDF00FF3A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE9FFA9292B173A007CB236 /* Matrimony.db in Resources */,
+				9AB931C529287EE000FF3A2E /* LaunchScreen.storyboard in Resources */,
+				9AB931C229287EE000FF3A2E /* Assets.xcassets in Resources */,
+				9AB931C029287EDF00FF3A2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB931C929287EE000FF3A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB931D329287EE000FF3A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		375C760F931D56F867E3F963 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MetrimonyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38E9B9BD38E5EDACCB2B1470 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Metrimony-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EF9902D6F0BA13698A04575 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Metrimony/Pods-Metrimony-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Metrimony/Pods-Metrimony-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Metrimony/Pods-Metrimony-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE834694100046EBD5E0A89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Metrimony-MetrimonyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4886E31689A65009492FC7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Metrimony-MetrimonyUITests/Pods-Metrimony-MetrimonyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Metrimony-MetrimonyUITests/Pods-Metrimony-MetrimonyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Metrimony-MetrimonyUITests/Pods-Metrimony-MetrimonyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AB931B129287EDF00FF3A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6D5384292D3B1100CFF100 /* favourite.swift in Sources */,
+				9A873E7D2928B8C400A6FCAA /* ProfileDetails.swift in Sources */,
+				9AB931BD29287EDF00FF3A2E /* ViewController.swift in Sources */,
+				9AB932022928832D00FF3A2E /* Utility.swift in Sources */,
+				9A4AC23B292BADFD0012D384 /* FavouriteTableViewCell.swift in Sources */,
+				9A873E792928937200A6FCAA /* profileViewController.swift in Sources */,
+				9A81210C292A3A8F00F84402 /* AddProfileViewController.swift in Sources */,
+				9AB931F92928816D00FF3A2E /* FMDatabase.m in Sources */,
+				9A873E75292891E100A6FCAA /* ProfileTableViewCell.swift in Sources */,
+				9AB931FD2928816D00FF3A2E /* FMResultSet.m in Sources */,
+				9A511ECB292DEB69000A27BF /* casteDAL.swift in Sources */,
+				9A10B947292F8C4B004C1162 /* SearchDAL.swift in Sources */,
+				9A511EC9292DEB50000A27BF /* Caste.swift in Sources */,
+				9AB931B929287EDF00FF3A2E /* AppDelegate.swift in Sources */,
+				9ADAF8F0292CB85D005706EE /* SearchViewController.swift in Sources */,
+				9A873E7B2928946500A6FCAA /* profileDAL.swift in Sources */,
+				9A511ED1292E5966000A27BF /* searchresultViewController.swift in Sources */,
+				9AB931FB2928816D00FF3A2E /* FMDatabasePool.m in Sources */,
+				9AB931FA2928816D00FF3A2E /* FMDatabaseAdditions.m in Sources */,
+				9A511ED4292E8C09000A27BF /* searchreasultTableViewCell.swift in Sources */,
+				9AB931BB29287EDF00FF3A2E /* SceneDelegate.swift in Sources */,
+				9A873E802928B90200A6FCAA /* ProfileDetailsDAL.swift in Sources */,
+				9AB931FC2928816D00FF3A2E /* FMDatabaseQueue.m in Sources */,
+				9A873E77292892B000A6FCAA /* profile.swift in Sources */,
+				9A10B949292FA9CB004C1162 /* search.swift in Sources */,
+				9A4AC238292BA8A20012D384 /* FavouriteViewController.swift in Sources */,
+				9A873E822928B92C00A6FCAA /* ProfileDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB931C729287EE000FF3A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB931D029287EE000FF3A2E /* MetrimonyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB931D129287EE000FF3A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB931DA29287EE000FF3A2E /* MetrimonyUITests.swift in Sources */,
+				9AB931DC29287EE000FF3A2E /* MetrimonyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AB931CD29287EE000FF3A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AB931B429287EDF00FF3A2E /* Metrimony */;
+			targetProxy = 9AB931CC29287EE000FF3A2E /* PBXContainerItemProxy */;
+		};
+		9AB931D729287EE000FF3A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AB931B429287EDF00FF3A2E /* Metrimony */;
+			targetProxy = 9AB931D629287EE000FF3A2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AB931BE29287EDF00FF3A2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AB931BF29287EDF00FF3A2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AB931C329287EE000FF3A2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AB931C429287EE000FF3A2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AB931DD29287EE000FF3A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AB931DE29287EE000FF3A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AB931E029287EE000FF3A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7A999EDBCCEAC4A5F253B6 /* Pods-Metrimony.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Metrimony/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Metrimony;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiren.metrimony.Metrimony;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Metrimony/FMDB/Metrimony-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AB931E129287EE000FF3A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB0143FA5E59BB2B9583474 /* Pods-Metrimony.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Metrimony/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Metrimony;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiren.metrimony.Metrimony;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Metrimony/FMDB/Metrimony-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AB931E329287EE000FF3A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74EF9D74797D1A2C8CB396A8 /* Pods-MetrimonyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiren.metrimony.MetrimonyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metrimony.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Metrimony";
+			};
+			name = Debug;
+		};
+		9AB931E429287EE000FF3A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9C1AFF08DC2187C19188B7 /* Pods-MetrimonyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiren.metrimony.MetrimonyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metrimony.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Metrimony";
+			};
+			name = Release;
+		};
+		9AB931E629287EE000FF3A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03036E9BF5506399968969C /* Pods-Metrimony-MetrimonyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiren.metrimony.MetrimonyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Metrimony;
+			};
+			name = Debug;
+		};
+		9AB931E729287EE000FF3A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0343F678EF23F91F25339061 /* Pods-Metrimony-MetrimonyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiren.metrimony.MetrimonyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Metrimony;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AB931B029287EDF00FF3A2E /* Build configuration list for PBXProject "Metrimony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB931DD29287EE000FF3A2E /* Debug */,
+				9AB931DE29287EE000FF3A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AB931DF29287EE000FF3A2E /* Build configuration list for PBXNativeTarget "Metrimony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB931E029287EE000FF3A2E /* Debug */,
+				9AB931E129287EE000FF3A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AB931E229287EE000FF3A2E /* Build configuration list for PBXNativeTarget "MetrimonyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB931E329287EE000FF3A2E /* Debug */,
+				9AB931E429287EE000FF3A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AB931E529287EE000FF3A2E /* Build configuration list for PBXNativeTarget "MetrimonyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB931E629287EE000FF3A2E /* Debug */,
+				9AB931E729287EE000FF3A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AB931AD29287EDF00FF3A2E /* Project object */;
+}
