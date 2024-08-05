@@ -74,17 +74,12 @@ class ProfileDetailsViewController: UIViewController {
 
        
     }
-    
-        
-    
 
     @IBAction func AddToFavourite(_ sender: Any) {
         if AddToFavourite.titleLabel?.text == "Add To Favourite"
         {
             AddToFavourite.setTitle("Remove From Favourite", for: .normal)
             favourite.changeIsFavourite(p: p)
-
-
         }
         else
         {

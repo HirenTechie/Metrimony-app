@@ -11,23 +11,19 @@ import UIKit
 
 class profileViewController: UIViewController,UITableViewDataSource,UITableViewDelegate{
     
-  
-    
     var pro:[profile] = []
    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-      
       
     }
     
     @IBOutlet weak var updateTable: UITableView!
     
-    
     override func viewWillAppear(_ animated: Bool) {
         loadData()
     }
+    
     func loadData()
     {
         pro = profileDAL.getProfile()
@@ -71,7 +67,8 @@ class profileViewController: UIViewController,UITableViewDataSource,UITableViewD
         return mainprofile
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
-        let Details : ProfileDetailsViewController = storyboard?.instantiateViewController(withIdentifier: "Details") as! ProfileDetailsViewController
+ let Details : ProfileDetailsViewController
+        = storyboard?.instantiateViewController(withIdentifier: "Details") as! ProfileDetailsViewController
         let p:profile = pro[indexPath.row]
         Details.p = p
         

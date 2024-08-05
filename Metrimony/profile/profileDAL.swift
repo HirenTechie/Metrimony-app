@@ -17,13 +17,12 @@ class profileDAL: NSObject {
         
         if dbconn.open()
         {
-            let query1 = "select * from Profile inner join Caste on Profile.CasteID=Caste.CasteID"
+            let query1 = "select * from Profile inner join Caste on Profile.CasteID=Caste.CasteID
             
             do
             {
                 let resultset1 = try dbconn.executeQuery(query1, values: [])
                                
-                
                 while(resultset1.next())
                                 {
                     let p:profile = profile()
@@ -46,7 +45,6 @@ class profileDAL: NSObject {
                     p.DateofBirth = resultset1.string(forColumn: "DOB")!
                     pro.append(p)
                 }
-               
             }
             catch
             {

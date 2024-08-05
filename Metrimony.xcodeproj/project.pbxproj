@@ -183,6 +183,7 @@
 		9A511ED2292E597C000A27BF /* search reasult */ = {
 			isa = PBXGroup;
 			children = (
+				9AB931C129287EE000FF3A2E /* Assets.xcassets */,
 				9A511ED0292E5966000A27BF /* searchresultViewController.swift */,
 				9A511ED3292E8C09000A27BF /* searchreasultTableViewCell.swift */,
 			);
@@ -247,7 +248,6 @@
 				9AB931BC29287EDF00FF3A2E /* ViewController.swift */,
 				9AB931BE29287EDF00FF3A2E /* Main.storyboard */,
 				9AB932012928832D00FF3A2E /* Utility.swift */,
-				9AB931C129287EE000FF3A2E /* Assets.xcassets */,
 				9AB931C329287EE000FF3A2E /* LaunchScreen.storyboard */,
 				9AB931C629287EE000FF3A2E /* Info.plist */,
 			);
